@@ -111,6 +111,16 @@
   padding-bottom: 140px;
   background-color: var(--deep-Jungle-Green);
   text-align: center;
+  background-image: url('../images/home/stories-background.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+}
+
+.stories-background1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .stories__title {
@@ -128,6 +138,7 @@
 .stories__list {
   display: flex;
   gap: 30px;
+
 }
 
 .stories__item {
@@ -157,3 +168,96 @@
 }
 
 /* STORIES END */
+
+
+
+
+
+
+@media (max-width:768px) {
+
+
+  /* HERO START */
+  .hero {
+    background-color: var(--midnight-Green);
+    background-image: none;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    padding-bottom: 250px;
+    background-image: url('../images/home/hero-bottom-img.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    text-align: center;
+  }
+
+  .hero__text-img {
+    display: none;
+
+  }
+
+  .hero__content-title span {
+    margin: 0;
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+
+  /* HERO END */
+
+  /* BUILD START */
+
+  .build {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--sacramento-State-Green);
+    background-image: url('../images/home/build-background.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+  /* BUILD END */
+
+
+  /* STORIES START */
+
+
+  .stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--deep-Jungle-Green);
+    text-align: center;
+    background-image: url('../images/home/stories-background.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+  }
+
+  .stories__title {
+    width: 480px;
+    margin-bottom: 64px;
+  }
+
+
+
+  .stories__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+  }
+
+
+  /* STORIES END */
+}

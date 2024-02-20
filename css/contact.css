@@ -117,3 +117,22 @@ input[type=number] {
 .form__button:hover {
   opacity: 0.7;
 }
+
+
+
+@media (max-width:768px) {
+
+
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-color: var(--midnight-Green);
+    padding-bottom: 115px;
+    text-align: center;
+  }
+
+
+}

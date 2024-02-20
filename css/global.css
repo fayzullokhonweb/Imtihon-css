@@ -308,3 +308,155 @@ body {
 
 
 /* FOOTER END */
+
+@media(max-width:768px) {
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--fonts);
+    font-weight: 700;
+
+  }
+
+
+  h1 {
+    margin: 0;
+    font-size: 64px;
+    line-height: 56px;
+
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+
+  .btn {
+    width: 153px;
+    border-radius: 24px;
+    font-family: var(--fonts);
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+
+  body {
+    height: 100%;
+    font-family: var(--fonts);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /*  */
+
+  /* HEADER START */
+
+  .header {
+    background-color: var(--midnight-Green);
+  }
+
+  .header__list {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 112px;
+  }
+
+  .header__item {
+    margin-right: auto;
+  }
+
+  .last {
+    margin-right: 40px;
+  }
+
+  /* HEADER END */
+
+
+
+  /* READY START */
+  .ready {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 100px;
+    background-color: var(--might-Coral);
+    background-image: url('../images/home/ready-bsckground.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-align: center;
+  }
+
+
+  /* READY END */
+
+  /* FOOTER START */
+
+  .footer {
+    display: flex;
+    gap: 10px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: var(--dark-Green);
+    position: relative;
+  }
+
+  .footer__logo-wrapper {
+    width: 160px;
+    margin-right: 140px;
+  }
+
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+
+  .footer__logo-pages {
+    display: flex;
+    margin-bottom: 70px;
+    gap: 40px;
+  }
+
+  .address {
+    font-style: normal;
+    color: var(--white);
+    text-align: right;
+  }
+
+  .socials-wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: -90px;
+  }
+
+  .footer__social-text {
+    width: 255px;
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+  }
+}

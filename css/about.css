@@ -1,7 +1,7 @@
 /* HERO START */
 .hero {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   padding-bottom: 120px;
   background-color: var(--midnight-Green);
   color: var(--white);
@@ -15,7 +15,6 @@
   font-size: 64px;
   line-height: 100px;
   width: 350px;
-
 }
 
 .hero__content {
@@ -146,3 +145,172 @@
 }
 
 /* CLIENTS END */
+
+
+
+
+@media(max-width:768px) {
+
+  /* HERO START */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 100px;
+    background-color: var(--midnight-Green);
+    color: var(--white);
+    background-image: url('../images/about/hero-background.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    text-align: center;
+  }
+
+  .hero__content {
+    width: 457px;
+  }
+
+  .hero__content-img {
+    display: none;
+  }
+
+  .hero__content-text {
+    font-size: 15px;
+  }
+
+  /* HERO END */
+
+  /* DIRECTORS START */
+  .directors {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .directors__top-background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+  }
+
+  .directors__list {
+    display: flex;
+    margin-left: 55px;
+    gap: 45px 15px;
+    flex-wrap: wrap;
+  }
+
+  .directors__item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 281px;
+    background-color: var(--sacramento-State-Green);
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+  }
+
+  .directors__item-img {
+    margin-bottom: 16px;
+  }
+
+  .directors__item-title {
+    color: var(--rapture-Blue);
+  }
+
+  .directors__item-text {
+    color: var(--white);
+    margin-bottom: 28px;
+  }
+
+  .directors__item-plus {
+    margin-bottom: -56px;
+  }
+
+  .last__item {}
+
+  .last__item-title {
+    color: var(--rapture-Blue);
+    margin-bottom: 7px;
+  }
+
+  .last__item-text {
+    width: 254px;
+    color: var(--white);
+    margin-bottom: 24px;
+  }
+
+  .directors__item-social {
+    margin-bottom: 35px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .last__item-icon {
+    margin-bottom: -56px;
+  }
+
+  /* DIRECTORS END */
+
+
+  /* CLIENTS START */
+
+  .clients {
+    background-color: var(--sacramento-State-Green);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url('../images/about/responsiv.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+
+  .clients__title {
+    color: var(--white);
+    margin-bottom: 64px;
+  }
+
+  .clients__social {
+    display: flex;
+    gap: 49px;
+    width: 689px;
+  }
+
+
+
+
+
+  .the-verge {
+    width: 103px;
+    height: 17px;
+  }
+
+  .the-jakarta {
+    width: 114px;
+    height: 14px;
+  }
+
+  .the-guardian {
+    width: 112px;
+    height: 17px;
+  }
+
+  .techradar {
+    width: 103px;
+    height: 17px;
+  }
+
+  .gadgets-now {
+    width: 61px;
+    height: 28px;
+  }
+
+  /* CLIENTS END */
+
+}
