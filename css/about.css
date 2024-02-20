@@ -314,3 +314,91 @@
   /* CLIENTS END */
 
 }
+
+
+
+@media (max-width:450px) {
+
+
+
+
+  .hero {
+    padding-bottom: 210px;
+  }
+
+
+  .hero-title {}
+
+  .hero__content {
+    width: 327px;
+
+  }
+
+  .hero__content-img {}
+
+  .hero__content-text {}
+
+  .directors {
+    padding-top: 160px;
+  }
+
+  .directors__top-background {}
+
+  .directors__title {}
+
+  .directors__list {}
+
+  .directors__item {
+    margin-left: -15px;
+  }
+
+  .directors__item-img {}
+
+  .directors__item-title {}
+
+  .directors__item-text {}
+
+  .directors__item-plus {}
+
+  .last__item {}
+
+  .last__item-title {}
+
+  .last__item-text {}
+
+  .directors__item-social {}
+
+  .last__item-icon {}
+
+  .clients {}
+
+  .clients__title {}
+
+  .clients__social {
+    width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .the-verge {}
+
+  .the-jakarta {}
+
+  .the-guardian {}
+
+  .techradar {}
+
+  .gadgets-now {}
+
+  .ready {}
+
+  .ready__title {}
+
+  .ready__btn {}
+
+  .btn {}
+
+
+}
