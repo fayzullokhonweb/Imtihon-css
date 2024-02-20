@@ -1,0 +1,159 @@
+/* HERO START */
+.hero {
+  background-color: var(--midnight-Green);
+  background-image: url('../images/home/left-background-img.svg');
+  background-repeat: no-repeat;
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  padding-bottom: 250px;
+  background-image: url('../images/home/hero-bottom-img.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.hero__text-img {
+  margin-bottom: 79px;
+}
+
+.hero__content-title {
+  width: 635px;
+  color: var(--white);
+}
+
+.hero__content-title span {
+  color: var(--might-Coral);
+  margin: 0;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.hero__text-wrapper {
+  width: 445px;
+}
+
+.hero__content-text {
+  width: 420px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--white);
+}
+
+
+
+/* HERO END */
+
+/* BUILD START */
+
+.build {
+  display: flex;
+  gap: 125px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--sacramento-State-Green);
+  background-image: url('../images/home/build-background.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.build__content {
+  width: 445px;
+}
+
+.build-content-img {
+  margin-bottom: 54px;
+}
+
+.build-content-text {
+  color: var(--white);
+}
+
+.build__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 540px;
+}
+
+.build__item {
+  display: flex;
+  gap: 23px;
+}
+
+
+
+.build__item__content-title {
+  margin-bottom: 16px;
+  color: var(--might-Coral);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.build__item__content-text {
+  color: var(--white);
+}
+
+
+/* BUILD END */
+
+
+/* STORIES START */
+
+
+.stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--deep-Jungle-Green);
+  text-align: center;
+}
+
+.stories__title {
+  width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white);
+  margin-bottom: 92px;
+}
+
+.stories__title span {
+  color: var(--rapture-Blue);
+}
+
+.stories__list {
+  display: flex;
+  gap: 30px;
+}
+
+.stories__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  color: var(--white);
+}
+
+
+
+.stories__item-img {
+  margin-bottom: -20px;
+}
+
+.stories__item-text {
+  margin-bottom: 24px;
+}
+
+.stories__item-title {
+  color: var(--rapture-Blue);
+}
+
+.stories__item-features {
+  margin-bottom: 32px;
+}
+
+/* STORIES END */

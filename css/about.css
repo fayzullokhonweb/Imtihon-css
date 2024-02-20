@@ -1,0 +1,148 @@
+/* HERO START */
+.hero {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 120px;
+  background-color: var(--midnight-Green);
+  color: var(--white);
+  background-image: url('../images/about/hero-background.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  width: 350px;
+
+}
+
+.hero__content {
+  width: 730px;
+}
+
+.hero__content-img {
+  margin-bottom: 40px;
+}
+
+.hero__content-text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* HERO END */
+
+/* DIRECTORS START */
+.directors {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--deep-Jungle-Green);
+  position: relative;
+  background-image: url('../images/about/directors-bottom-background.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.directors__top-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.directors__title {
+  color: var(--white);
+  margin-bottom: 64px;
+}
+
+.directors__list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 65px 30px;
+  flex-wrap: wrap;
+}
+
+.directors__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  background-color: var(--sacramento-State-Green);
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+
+.directors__item-img {
+  margin-bottom: 16px;
+}
+
+.directors__item-title {
+  color: var(--rapture-Blue);
+}
+
+.directors__item-text {
+  color: var(--white);
+  margin-bottom: 28px;
+}
+
+.directors__item-plus {
+  margin-bottom: -56px;
+}
+
+.last__item {}
+
+.last__item-title {
+  color: var(--rapture-Blue);
+  margin-bottom: 7px;
+}
+
+.last__item-text {
+  width: 254px;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.directors__item-social {
+  margin-bottom: 35px;
+  display: flex;
+  gap: 16px;
+}
+
+.last__item-icon {
+  margin-bottom: -56px;
+}
+
+/* DIRECTORS END */
+
+
+/* CLIENTS START */
+
+.clients {
+  background-color: var(--sacramento-State-Green);
+  padding-top: 140px;
+  padding-bottom: 140px;
+  text-align: center;
+  background-image: url('../images/about/clients-background.svg');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.clients__title {
+  color: var(--white);
+  margin-bottom: 64px;
+}
+
+.clients__social {
+  display: flex;
+  gap: 78px;
+}
+
+/* CLIENTS END */
